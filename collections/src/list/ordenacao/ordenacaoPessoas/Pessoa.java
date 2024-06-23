@@ -1,7 +1,5 @@
 package list.ordenacao.ordenacaoPessoas;
 
-import java.util.Comparator;
-
 public class Pessoa implements Comparable<Pessoa>{
 
     private String nome;
@@ -38,8 +36,3 @@ public class Pessoa implements Comparable<Pessoa>{
 
 }
 
-class ComparatorPorAltura implements Comparator<Pessoa> {
-    public int compare(Pessoa p1, Pessoa p2){
-        return Double.compare(p1.getAltura(), p2.getAltura());
-    }
-}
