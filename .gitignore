@@ -26,7 +26,7 @@ replay_pid*
 # Code configuration
 .vscode
 
-# README src
+# README collections exercises
 list.md
 map.md
 set.md
