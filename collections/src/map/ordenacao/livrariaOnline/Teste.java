@@ -1,6 +1,6 @@
 package map.ordenacao.livrariaOnline;
 
-public class TesteLivraria {
+public class Teste {
 
     public static void main(String[] args) {
         
